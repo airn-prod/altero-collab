@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@alterolabs",
   },
-  metadataBase: new URL("https://www.altero.ai"),
+  metadataBase: new URL("https://alterolabs.vercel.app/"),
 };
 
 export default function RootLayout({
