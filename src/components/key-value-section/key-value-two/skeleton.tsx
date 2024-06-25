@@ -64,10 +64,10 @@ export const Skeleton = () => {
           <ClaudeLogo className="h-4 w-4 " />
         </Container>
         <Container className="h-12 w-12 circle-2">
-          <GoCopilot className="h-6 w-6 dark:text-white" />
+          <GoCopilot className="h-6 w-6 " />
         </Container>
         <Container className="circle-3">
-          <OpenAILogo className="h-8 w-8 dark:text-white" />
+          <OpenAILogo className="h-8 w-8" />
         </Container>
         <Container className="h-12 w-12 circle-4">
           <MetaIconOutline className="h-6 w-6 " />

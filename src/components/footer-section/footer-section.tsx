@@ -56,7 +56,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col max-w-sm gap-10 md:text-center text-left col-span-2">
+          <div className="flex flex-col max-w-sm gap-10 text-left col-span-2">
             <div className="flex flex-col gap-4">
               <p className="font-bold">Bali Office</p>
               <div>
@@ -73,7 +73,7 @@ export const Footer = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2">
-            <div className="md:text-center text-left">
+            <div className="text-left">
               <p className="text-lg font-medium">Company</p>
 
               <ul className="mt-8 space-y-4 text-sm">
@@ -102,7 +102,7 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div className="md:text-center text-left">
+            <div className="text-left">
               <p className="text-lg font-medium">Resources</p>
 
               <ul className="mt-8 space-y-4 text-sm">
@@ -123,7 +123,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-gray-100 pt-6">
-          <div className="flex flex-col gap-4 text-center sm:flex sm:justify-between sm:text-left">
+          <div className="flex flex-col md:flex-row items-center gap-4 text-center sm:flex sm:justify-between sm:text-left">
             <p className="text-sm">
               <span className="block sm:inline">
                 © 2024 AlteroLabs. All rights reserved.
