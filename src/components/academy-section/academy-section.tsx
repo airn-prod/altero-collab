@@ -6,7 +6,10 @@ import { BenefitItems } from "./benefit-items";
 
 export const Academy = () => {
   return (
-    <section className="relative overflow-hidden h-screen bg-white bg-[url('/academy-bg.jpg')] bg-cover">
+    <section
+      id="altero-academy"
+      className="relative overflow-hidden h-screen bg-white bg-[url('/academy-bg.jpg')] bg-cover"
+    >
       <MaxWidthWrapper className="relative z-20 mx-auto flex h-full flex-col justify-between py-24 md:py-32">
         <div>
           <motion.div
@@ -59,10 +62,9 @@ export const Academy = () => {
             }}
             className="mb-10 max-w-3xl text-start text-base leading-relaxed text-txtParagraph sm:text-lg md:text-lg"
           >
-            At Altero Academy, we are dedicated to empowering the next
-            generation of tech innovators. Our hands-on educational programs
-            focus on the practical application of cutting-edge AI technologies,
-            including LangChain, RAG, and AutoRAG.
+            At Altero Academy, we are dedicated to empowering the next generation of tech
+            innovators. Our hands-on educational programs focus on the practical application of
+            cutting-edge AI technologies, including LangChain, RAG, and AutoRAG.
           </motion.p>
           <motion.div
             initial={{

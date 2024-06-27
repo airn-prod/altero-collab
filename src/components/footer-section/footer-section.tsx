@@ -32,10 +32,7 @@ export const Footer = () => {
                   y="6"
                   maskUnits="userSpaceOnUse"
                 >
-                  <path
-                    fill="#fff"
-                    d="M36.789 6.652H6.622v20.696H36.79V6.652z"
-                  ></path>
+                  <path fill="#fff" d="M36.789 6.652H6.622v20.696H36.79V6.652z"></path>
                 </mask>
                 <g fill="#FAFAFA" mask="url(#mask0_506_2305)">
                   <path d="M23.812 22.782c.29.282.29.744 0 1.026l-3.102 3.027c-.29.282-.862.513-1.272.513h-3.995c-.41 0-.506-.227-.211-.504l5.94-5.6a.778.778 0 011.062.008l1.578 1.531zM27.404 11.892c.29.281.29.742 0 1.024l-6.35 6.166-1.055 1.024-3.702 3.596-1.055 1.024-2.172 2.11a.764.764 0 01-1.055 0l-4.139-4.02-1.044-1.013a.705.705 0 01.011-1.014l2.173-2.11 1.054-1.024 3.703-3.596 1.054-1.024.124-.12 1.055-1.024 4.139-4.019 1.044-1.014a.748.748 0 011.033 0l1.044 1.014 4.14 4.019h-.002zM36.572 20.79c.29.281.294.737.01 1.013-.282.277-.753.733-1.043 1.014l-4.14 4.02a.764.764 0 01-1.054 0l-3.74-3.633-1.055-1.024-2.135-2.073a.712.712 0 010-1.024l4.139-4.019 1.044-1.014a.756.756 0 011.044.01l6.93 6.73z"></path>
@@ -60,15 +57,17 @@ export const Footer = () => {
             <div className="flex flex-col gap-4">
               <p className="font-bold">Bali Office</p>
               <div>
-                Pertokoan Nakula Plaza B8, Jl. Nakula, Desa/Kelurahan Legian,
-                Kec. Kuta, Kab. Badung, Indonesia
+                Pertokoan Nakula Plaza B8, Jl. Nakula, Desa/Kelurahan Legian, Kec. Kuta, Kab.
+                Badung, Indonesia
+              </div>
+              <div>
+                <span className="font-bold">Operational Office</span>: Jalan Melati No.69, Dangin
+                Puri Kangin, Denpasar Utara
               </div>
             </div>
             <div className="flex flex-col gap-4">
               <p className="font-bold">Singapore Office</p>
-              <div>
-                5F, 9 Straits View, Marina One West Tower #05-07 Singapore
-              </div>
+              <div>5F, 9 Straits View, Marina One West Tower #05-07 Singapore</div>
             </div>
           </div>
 
@@ -125,9 +124,7 @@ export const Footer = () => {
         <div className="mt-12 border-t border-gray-100 pt-6">
           <div className="flex flex-col md:flex-row items-center gap-4 text-center sm:flex sm:justify-between sm:text-left">
             <p className="text-sm">
-              <span className="block sm:inline">
-                © 2024 AlteroLabs. All rights reserved.
-              </span>
+              <span className="block sm:inline">© 2024 AlteroLabs. All rights reserved.</span>
             </p>
 
             <ul className="flex justify-center gap-6 sm:justify-start md:gap-8">

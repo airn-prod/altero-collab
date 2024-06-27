@@ -1,11 +1,11 @@
 const LINKS = [
   {
     text: "Altero Academy",
-    href: "#",
+    href: "#altero-academy",
   },
   {
     text: "Services",
-    href: "#",
+    href: "#key-value",
   },
   {
     text: "About",
@@ -13,11 +13,11 @@ const LINKS = [
   },
   {
     text: "Portfolio",
-    href: "#",
+    href: "#portfolio",
   },
   {
     text: "Contact Us",
-    href: "#",
+    href: "#cta",
   },
 ];
 
