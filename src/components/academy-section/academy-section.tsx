@@ -8,10 +8,10 @@ export const Academy = () => {
   return (
     <section
       id="altero-academy"
-      className="relative overflow-hidden h-screen bg-white bg-[url('/academy-bg.jpg')] bg-cover"
+      className="relative overflow-hidden h-fit bg-white bg-[url('/academy-bg.jpg')] bg-cover"
     >
       <MaxWidthWrapper className="relative z-20 mx-auto flex h-full flex-col justify-between py-24 md:py-32">
-        <div>
+        <div className="mb-20">
           <motion.div
             initial={{
               y: 25,
