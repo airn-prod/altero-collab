@@ -6,7 +6,7 @@ import { Logo } from "../ui/logo";
 import { Links } from "./links";
 import { CTAs } from "./cta";
 import { MobileMenu } from "./mobile-menu";
-import { MaxWidthWrapper } from "../max-width-wrapper";
+import { MaxWidthWrapper } from "../layout-box/max-width-wrapper";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -34,14 +34,14 @@ const Navbar = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-neutral-950 py-3 shadow-xl text-white"
-          : "bg-neutral-950/0 py-6 shadow-none text-black"
+          ? "bg-white/50 backdrop-blur-md py-3 shadow-md text-black"
+          : "bg-white py-3 shadow-none text-black"
       }`}
     >
       <MaxWidthWrapper className="mx-auto flex items-center justify-between">
         <Logo
           color={`
-      ${scrolled ? "white" : "black"}`}
+      ${scrolled ? "black" : "black"}`}
         />
         <div className="hidden gap-6 lg:flex">
           <Links />

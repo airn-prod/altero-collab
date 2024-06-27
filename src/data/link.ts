@@ -1,23 +1,19 @@
 const LINKS = [
   {
     text: "Altero Academy",
-    href: "#altero-academy",
-  },
-  {
-    text: "Services",
-    href: "#key-value",
-  },
-  {
-    text: "About",
     href: "#",
   },
   {
-    text: "Portfolio",
-    href: "#portfolio",
+    text: "Services",
+    href: "#",
   },
   {
-    text: "Contact Us",
-    href: "#cta",
+    text: "Tech Blog",
+    href: "#",
+  },
+  {
+    text: "Altero Ventures",
+    href: "#",
   },
 ];
 

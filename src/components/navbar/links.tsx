@@ -3,7 +3,7 @@ import { NavLink } from "./nav-link";
 
 export const Links = () => {
   return (
-    <div className="flex items-center gap-6">
+    <div className="flex items-center gap-4">
       {LINKS.map((l, index) => (
         <>
           <NavLink key={l.text} href={l.href}>

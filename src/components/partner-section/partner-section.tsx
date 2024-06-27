@@ -6,10 +6,7 @@ import { PartnerItems } from "./partner-items";
 export const Partners = () => {
   return (
     <section className="bg-bgGrey">
-      <div className="relative mx-auto max-w-7xl overflow-hidden border-b border-white py-11">
-        <span className="mx-auto mb-9 block w-fit bg-gradient-to-br from-secondary to-primary bg-clip-text text-start text-lg text-transparent">
-          Our Trusted Partners
-        </span>
+      <div className="relative mx-auto max-w-7xl overflow-hidden border-b border-white py-20">
         <div className="flex overflow-hidden">
           <TranslateWrapper>
             <PartnerItems />

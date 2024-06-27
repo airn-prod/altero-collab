@@ -40,9 +40,9 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <div className={cn("font-regular", className)}>
+    <div className={cn("font-regular flex flex-col w-full items-center", className)}>
       <div>
-        <h2 className="  text-txtTitle text-center text-2xl leading-relaxed md:text-[44px] md:leading-[56px]">
+        <h2 className="text-txtTitle text-center max-w-5xl text-2xl leading-relaxed md:text-[44px] md:leading-[56px]">
           {renderWords()}
         </h2>
       </div>

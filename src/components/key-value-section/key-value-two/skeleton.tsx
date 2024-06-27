@@ -59,21 +59,21 @@ export const Skeleton = () => {
   }, []);
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
+      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-4">
         <Container className="h-8 w-8 circle-1">
-          <ClaudeLogo className="h-4 w-4 " />
+          <ClaudeLogo className="h-6 w-6 " />
         </Container>
         <Container className="h-12 w-12 circle-2">
-          <GoCopilot className="h-6 w-6 " />
+          <GoCopilot className="h-8 w-8 " />
         </Container>
         <Container className="circle-3">
-          <OpenAILogo className="h-8 w-8" />
+          <OpenAILogo className="h-12 w-12" />
         </Container>
         <Container className="h-12 w-12 circle-4">
-          <MetaIconOutline className="h-6 w-6 " />
+          <MetaIconOutline className="h-8 w-8 " />
         </Container>
         <Container className="h-8 w-8 circle-5">
-          <GeminiLogo className="h-4 w-4 " />
+          <GeminiLogo className="h-6 w-6 " />
         </Container>
       </div>
     </div>
